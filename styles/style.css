@@ -1,0 +1,123 @@
+body {
+  background-image: linear-gradient(180deg,#faeaea, #b2c7ff);
+  margin: 0px;
+  padding: 0px;
+}
+* {
+  font-family: Poppins, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#header{
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items:center ;
+  margin-bottom: 30px;
+  padding: 10px;
+  background-color:#ffffff ;
+}
+span{
+  color: #ffa500;
+}
+#banner {
+  margin: auto;
+  width: 70%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 20px;
+}
+#banner-image {
+  text-align: center;
+}
+#banner-heading {
+  text-align: center;
+}
+#banner-image {
+  align-items: center;
+}
+#banner-para {
+  text-align: center;
+}
+button {
+  background-image: linear-gradient(to right, #ffa500, #ffd447);
+  font-size: 16px;
+  border-radius: 15px;
+  border-style: none;
+  padding: 15px 30px 15px 30px;
+  text-align: center;
+}
+#banner-button {
+  text-align: center;
+}
+.blog{
+  padding:30px;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+.blog-content{
+  display: flex;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content:center ;
+  border-radius: 20px;
+  padding: 30px;
+}
+.blog-text{
+  width: 100%;
+  padding: 20px;
+}
+.blog-image{
+  padding: 40px;
+}
+.inspiration{
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+}
+.inspiration-text{
+  margin: 48px;
+}
+iframe{
+  border-radius: 20px;
+  width: 100%;
+}
+.targets{
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+}
+.targets-content{
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  
+}
+.targets-card{
+  background-color: white;
+  width: 30%;
+  padding: 30px;
+  border-radius: 30px;
+}
+.footer{
+  justify-content: space-around;
+  height: auto;
+  padding: 10px;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  background-color: #ffffff;
+}
+.footer-images{
+  display: flex;
+  gap: 10px;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+}
