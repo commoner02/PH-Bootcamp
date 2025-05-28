@@ -1,0 +1,52 @@
+/* default for desktop  */
+ 
+
+
+/* for tablets */
+@media only screen and (max-width: 1024px) {
+   .blog {
+    gap: 20px;
+  }
+  .blog-content {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  .blog-image img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  } 
+  iframe {
+    border-radius: 20px;
+    height: 570px;
+    
+  }
+    
+}
+
+/* for phones */
+@media only screen and (max-width: 768px) {
+  .inspirational video {
+    background-color: blanchedalmond;
+  }
+  
+  .targets-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .targets-card {
+    background-color: white;
+    width: 60%;
+    padding: 30px;
+    border-radius: 30px;
+  }
+   iframe {
+    height: 370px;
+    
+  }
+  .footer{
+    flex-direction: column;
+    align-items: center;
+}
+}
