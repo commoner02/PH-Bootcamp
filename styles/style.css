@@ -113,6 +113,7 @@ iframe{
   display: flex;
   text-align: center;
   background-color: #ffffff;
+  width: auto;
 }
 .footer-images{
   display: flex;

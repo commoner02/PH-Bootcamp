@@ -42,8 +42,11 @@
     border-radius: 30px;
   }
    iframe {
-
     height: 370px;
     
   }
+  .footer{
+    flex-direction: column;
+    align-items: center;
+}
 }
