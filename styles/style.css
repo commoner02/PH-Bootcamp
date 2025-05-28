@@ -114,6 +114,7 @@ iframe{
   text-align: center;
   background-color: #ffffff;
   width: auto;
+  align-items: center;
 }
 .footer-images{
   display: flex;
